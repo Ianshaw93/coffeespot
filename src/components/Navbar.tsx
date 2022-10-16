@@ -19,7 +19,7 @@ export default function NavComponent() {
 			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 ">
 				<div className="flex-1">
 					<a className="text-[#40AAE8] btn btn-ghost normal-case text-xl" href="#home">
-						Ian Shaw
+						Coffee Stop
 						<img src="" className="nav--logo" />
 					</a>
 				</div>
@@ -41,7 +41,7 @@ export default function NavComponent() {
 								<a href="#work">Portfolio</a>
 							</li>
 							<li>
-								<a href="#articles">Articles</a>
+								<a href="#dealoftheweek">Deal of the Week</a>
 							</li>
 							<li>
 								{/* <a href="#link">CV</a> */}
@@ -72,7 +72,7 @@ export default function NavComponent() {
 						<a href="#work">Portfolio</a>
 					</li>
 					<li className='py-6 text-4xl'>
-						<a href="#articles">Articles</a>
+						<a href="#dealoftheweek">Deal of the Week</a>
 					</li>
 					<li className='py-6 text-4xl'>
 						<a href = {CvPdf} target = "_blank">CV</a>

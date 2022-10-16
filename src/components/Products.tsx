@@ -3,16 +3,16 @@ import cryptoAppChart from '../assets/cryptoPriceAlertsSquare.png'
 import EasyBanc from '../assets/easyBancSquare.png'
 //src\assets\airbnbLogo.jpeg
 //src\assets\easyBancSquare.PNG
-const Work = () => {
+const Products = () => {
   return (
     // <div name='work' className='w-full md:h-screen'>
     // <div id={'work'} className='w-full md:h-screen'>
-    <div id={'work'} className='w-full md:h-screen'>
+    <div id={'products'} className='w-full md:h-screen'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#40AAE8]'>Work</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#40AAE8]'>Products</p>
                 
-                <p> <br />// Check out some of my work <br /></p>
+                <p> <br />// Check out our Products shipped UK wide<br /></p>
             </div>
 {/* TODO: change to dynamically add projects - perhaps auto pull from github pinned? */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -23,7 +23,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl fond-bold text-white tracking-wider'>
-Crypto Price Alerts Mobile App
+Coffee Beans
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://github.com/Ianshaw93/cryptoAlertsApp'>
@@ -43,7 +43,7 @@ Crypto Price Alerts Mobile App
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl fond-bold text-white tracking-wider'>
-Facial Recognition App
+Barista Accessories
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://www.youtube.com/watch?v=X5m8h8OIUds&ab_channel=ShawOnTech'>
@@ -62,4 +62,4 @@ Facial Recognition App
   )
 }
 
-export default Work
+export default Products

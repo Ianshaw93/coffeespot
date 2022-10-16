@@ -1,9 +1,10 @@
 import Home from "./components/Home";
 import NavComponent from "./components/Navbar";
 import About from "./components/About";
-import Work from "./components/Work";
+import Products from "./components/Products";
 import Articles from "./components/Articles";
 import Contact from "./components/Contact";
+import DealOfTheWeek from "./components/DealOfTheWeek";
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
 		<div>
 			<NavComponent />
 			<Home />
+			<DealOfTheWeek />
+			<Products />
 			<About />
-			<Work />
+			
 			<Articles />
 			<Contact />
 		</div>
