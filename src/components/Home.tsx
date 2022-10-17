@@ -14,7 +14,7 @@ const Home = () => {
             {/* change font colour to lighter */}
             <h2 className='text-4xl sm:text-7xl font-bold text-[#CBD0D3]'>Fresh Coffee and Cake</h2>
           <div>
-            <button onClick={() => window.location.replace("/personalWebsite/#work")} className='text-black hover:text-[#CBD0D3] border-2 px-6 my-2 flex items-center hover:bg-[#438EBA]'>
+            <button onClick={() => window.location.replace("/coffeestop/#menu")} className='text-black hover:text-[#CBD0D3] border-2 px-6 my-2 flex items-center hover:bg-[#438EBA]'>
               View Menu  <HiArrowNarrowRight />
             </button>
           </div>
